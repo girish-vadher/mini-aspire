@@ -13,6 +13,11 @@ Repayment is made to the scheduled repayments with any amount
 
 If all the repayment completed the repayment and loan status changed to Paid.
 
+**Installation & Run **
+
+composer install
+
+php artisan serve
 
 **Postman collection**
 [mini-aspire.postman_collection.json]
