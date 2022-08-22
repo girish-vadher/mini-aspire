@@ -14,10 +14,10 @@ Repayment is made to the scheduled repayments with any amount
 If all the repayment completed the repayment and loan status changed to Paid.
 
 
-** Postman collection **
+**Postman collection**
 [mini-aspire.postman_collection.json]
 
-** Laravel Passport  **
+**Laravel Passport**
 
 https://laravel.com/docs/9.x/passport
 
@@ -26,7 +26,7 @@ Use Login API to create token and use that token into other API
 'Accept' => 'application/json',
 'Authorization' => 'Bearer '.$accessToken,
 
-** List of API are created in postman.**
+**List of API are created in postman.**
 
 
 http://localhost:8000/api/register
@@ -42,7 +42,7 @@ http://localhost:8000/api/loans/{loan_id}
 http://localhost:8000/api/loans/1
 
 
-** Demo Customer Users:**
+**Demo Customer Users:**
 
 User : customer1@aspireapp.com
 Password : aspireapp
