@@ -1,0 +1,356 @@
+{
+	"id": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+	"name": "mini-aspire",
+	"description": "",
+	"order": [
+		"721120e1-b2fe-4cca-f235-346389b85490",
+		"3167dc9d-a54a-b218-e8e1-b52f46f1e3d3",
+		"5ec84806-961a-47fb-eff6-09007a6e1602",
+		"3a6436a7-0024-931a-7ebc-c0a7227d18b2",
+		"f02568a9-0372-fb49-ab98-85cd34251fa9",
+		"b67bc56b-7563-3eb4-f472-673b4a886315",
+		"ca4dd826-9d4c-8c92-1b77-2943383a8b5e",
+		"489c2328-4975-2b5b-0c7c-74f10ffea2fa"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3167dc9d-a54a-b218-e8e1-b52f46f1e3d3",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/oauth/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "customer1@aspireapp.com",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "aspireapp",
+					"type": "text"
+				},
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "DZfYBDkDuH59isN6HuCQBPsAjhBQIjW9Rc9WqlrG",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1661141659453,
+			"name": "login",
+			"description": "",
+			"collectionId": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+			"responses": []
+		},
+		{
+			"id": "3a6436a7-0024-931a-7ebc-c0a7227d18b2",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/loans/create?amount=21&term=3",
+			"queryParams": [
+				{
+					"key": "amount",
+					"value": "21",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "term",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "amount",
+					"value": "10",
+					"type": "text"
+				},
+				{
+					"key": "term",
+					"value": "3",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1661141842560,
+			"name": "loan create",
+			"description": "",
+			"collectionId": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+			"responses": []
+		},
+		{
+			"id": "489c2328-4975-2b5b-0c7c-74f10ffea2fa",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/repay/18",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "amount",
+					"value": "10",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1661141927488,
+			"name": "Repayment",
+			"description": "",
+			"collectionId": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+			"responses": []
+		},
+		{
+			"id": "5ec84806-961a-47fb-eff6-09007a6e1602",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/user-detail",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1661141845409,
+			"name": "user",
+			"description": "",
+			"collectionId": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+			"responses": []
+		},
+		{
+			"id": "721120e1-b2fe-4cca-f235-346389b85490",
+			"name": "register",
+			"description": "",
+			"collectionId": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+			"method": "POST",
+			"helperAttributes": {},
+			"headers": "",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "Rijo",
+					"type": "text"
+				},
+				{
+					"key": "email",
+					"value": "dfs@sdf.sdf6",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"type": "text"
+				},
+				{
+					"key": "password_confirmation",
+					"value": "12345678",
+					"type": "text"
+				},
+				{
+					"key": "role",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"rawModeData": "",
+			"url": "http://localhost:8000/api/register",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "3e9dec4c-5dd4-434a-0408-9075d049cde8"
+		},
+		{
+			"id": "b67bc56b-7563-3eb4-f472-673b4a886315",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiNmMzZDU3NTczYTAzMmY0MmI0MzY3ZjQ1ZTM3ZjU0ZDkxMzQ5MDRhNmYzYTgzZWEwZWUyOTc2MWZhMjQyODYyMDQ3MzQwY2YwYTVmZDk3YWIiLCJpYXQiOjE2NjA4NDI1NjAuMzU1MzA2LCJuYmYiOjE2NjA4NDI1NjAuMzU1MzA4LCJleHAiOjE2OTIzNzg1NjAuMDQyNzY3LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.qDYzH3Rs3JNWIcKDszpVVeWJiVlc2RtUZtgDOH9Ss1uUrsxEmJocFz8DVw_LJ_r5h95dyPzOOD2wasE5SzvZNfDfnTN4XSxdWWM5I7vpr5lsl1VWK7rmtgrceZYqROrfUBgqNg7hr4M8fi2VhEDcUGDUa_zFAmcHtyVKtIGW9AFpW7DKFsxxqzvWzTjbXXvi5DH21q0xj1TdhdkxVOEDVui_1rpPGYdOtW-TzCRkBTW0URAO0-uU0vliRFiB8OgGSIIHDx4DYqDspuuq1JTVZm0BgdpsIeT4fp3vHWz1vUmKgH3zy1LeUmEcClwglQxBIulEF1SQIkepFvz3gtqzihNf3z5pC_49xKEAZaW14AUACGbnPErtQE6frcDVABrhgpHMIwv_ee3_gF-uHT6sDnBkSFDJzWlPfpOI1uQKWVS3VNQN2GGVJwfmGxozOIeT7_dVRGLtWYEUtsob3RjDAOYkmFG971m6JWsHJKC2DneJ9Me6b4X39eODIWBgs5f97Za3d7Oy1NdoW7FgOfw4KjMhfq_7PBE0gPlNM35t3_siNfaaqa1Jr4-GS6WK7hNd9X8Mn3WpjyIdxZvvdc905vFazEAUE2txyYm2BekuqFZsG4BOgC2mvaK6muKF9vzUwa5YdE4GZbgHaotjDN6a1FzGhCn5g3jJOt1VaQyNf-8\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiNmMzZDU3NTczYTAzMmY0MmI0MzY3ZjQ1ZTM3ZjU0ZDkxMzQ5MDRhNmYzYTgzZWEwZWUyOTc2MWZhMjQyODYyMDQ3MzQwY2YwYTVmZDk3YWIiLCJpYXQiOjE2NjA4NDI1NjAuMzU1MzA2LCJuYmYiOjE2NjA4NDI1NjAuMzU1MzA4LCJleHAiOjE2OTIzNzg1NjAuMDQyNzY3LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.qDYzH3Rs3JNWIcKDszpVVeWJiVlc2RtUZtgDOH9Ss1uUrsxEmJocFz8DVw_LJ_r5h95dyPzOOD2wasE5SzvZNfDfnTN4XSxdWWM5I7vpr5lsl1VWK7rmtgrceZYqROrfUBgqNg7hr4M8fi2VhEDcUGDUa_zFAmcHtyVKtIGW9AFpW7DKFsxxqzvWzTjbXXvi5DH21q0xj1TdhdkxVOEDVui_1rpPGYdOtW-TzCRkBTW0URAO0-uU0vliRFiB8OgGSIIHDx4DYqDspuuq1JTVZm0BgdpsIeT4fp3vHWz1vUmKgH3zy1LeUmEcClwglQxBIulEF1SQIkepFvz3gtqzihNf3z5pC_49xKEAZaW14AUACGbnPErtQE6frcDVABrhgpHMIwv_ee3_gF-uHT6sDnBkSFDJzWlPfpOI1uQKWVS3VNQN2GGVJwfmGxozOIeT7_dVRGLtWYEUtsob3RjDAOYkmFG971m6JWsHJKC2DneJ9Me6b4X39eODIWBgs5f97Za3d7Oy1NdoW7FgOfw4KjMhfq_7PBE0gPlNM35t3_siNfaaqa1Jr4-GS6WK7hNd9X8Mn3WpjyIdxZvvdc905vFazEAUE2txyYm2BekuqFZsG4BOgC2mvaK6muKF9vzUwa5YdE4GZbgHaotjDN6a1FzGhCn5g3jJOt1VaQyNf-8",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/loans/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1661141942620,
+			"name": "Admin change status",
+			"description": "",
+			"collectionId": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+			"responses": []
+		},
+		{
+			"id": "ca4dd826-9d4c-8c92-1b77-2943383a8b5e",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/loans/6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1661141883788,
+			"name": "View Loan",
+			"description": "",
+			"collectionId": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+			"responses": []
+		},
+		{
+			"id": "f02568a9-0372-fb49-ab98-85cd34251fa9",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTA4MzMwM2M0MTY1YWY2ZWZiYWZiYTRhYjVkODJiNWFmOGEyOTY4NjgwZDgyOWE2YjcyZWIwYjEzYWZmMGIyYzY3MDg4Y2UyMWM5NTMwM2EiLCJpYXQiOjE2NjExNDE3NTAuNTE0OTYsIm5iZiI6MTY2MTE0MTc1MC41MTQ5NjIsImV4cCI6MTY5MjY3NzcwNS44ODg0OTQsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.cu905jvWl4x5JtAzrR6V4VgXPP8ncO1mOtmWTuZlqXXNdCFaKgA7hiiGEfvmLHklDcb9guhpFM5j6UOgdxcj8BwAu1CeTw3hTsKfl5Ch972jOxBUTxRjAsSVzDAAk2CAhQD_wcudNbe4HDLXcULIXVbpfiJnuChNTXsO5KLpEcG-A8hr31MmXqaZdkSIaSSGJuAVeCKloxajDqaRPv60fSVCHc0sk0o40Ioe8rLyXCZY9_b14MImK2y6KgvXgjyTs9VG_5RRO6oGGMtf783Vir3bp6ZOwM8HEQesvclWhLfIj15XqLzLm1kp3Ysxjna0hS2k5rmCuqLjMjRQKC-bfgueX0ewVM2agEuGH1SypWMMs9sAbiwyIhq3feP6tmie4r8pA7elhhbfsD5XeAh9qBefA5gpTxA2CRRRqQ7DqhSXJ8wpNxE7cl7kqiC_wT2p2cva2yNn4DfqIzNZOZAqH_VcQlv387URHDlbgQJgRD63T4EiLkvgIuUHRzBHfWpvXxyFOwQjjT8MSxnSkoOCt7M5ZNpEFQKBK4VfJH5PF9Z_yeKzmVnO8tb6yKLTGtblHtte_Ff82zm-K3285xjz_OjL0hziXMcEOoP2EVzlZlFS3hJZ38VB0OpDMB9a3Jmxl-CJIkKLDJydSdu1eyhrPmtWX0Bhlhqc1m2DZCXXgFM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/loans",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1661141839683,
+			"name": "loans",
+			"description": "",
+			"collectionId": "3e9dec4c-5dd4-434a-0408-9075d049cde8",
+			"responses": []
+		}
+	]
+}
