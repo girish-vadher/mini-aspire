@@ -13,7 +13,7 @@ Repayment is made to the scheduled repayments with any amount
 
 If all the repayment completed the repayment and loan status changed to Paid.
 
-**Installation & Run **
+**Installation & Run**
 
 composer install
 
